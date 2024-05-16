@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: webhook
+
+server:
+  servlet:
+    context-path: /v1/webhook
+
+github:
+  webhook-path: ${GITHUB-WEBHOOK-PATH}
+
+
